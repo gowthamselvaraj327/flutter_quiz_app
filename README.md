@@ -1,16 +1,57 @@
-# quiz_app
+# Flutter Quiz App
 
-A new Flutter project.
+A simple **Flutter Quiz Application** built to learn **navigation between multiple screens** in Flutter.  
+The app allows users to start a quiz, answer multiple questions, and view results at the end.
 
-## Getting Started
+This project focuses on understanding screen transitions, state handling, and UI composition in Flutter.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Multiple screens (Start, Quiz, Result)
+- Navigation between screens
+- Multiple-choice quiz questions
+- Displays quiz results at the end
+- Clean and simple UI
+- Built using core Flutter widgets
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Technologies Used
+
+| Technology | Purpose |
+|-------------|----------|
+| **Flutter** | Cross-platform UI toolkit |
+| **Dart** | Programming language used by Flutter |
+| **Navigator** | Screen navigation |
+| **Stateful Widgets** | Managing quiz state |
+
+---
+
+## Installation & Setup
+
+### 1. Clone the Repository
+```
+git clone https://github.com/gowthamselvaraj327/flutter_quiz_app.git
+cd flutter_quiz_app
+```
+### 2. Install Dependencies
+```
+flutter pub get
+```
+### 3. Run the App
+```
+flutter run
+```
+
+## Concepts Learned
+- Navigation between multiple screens
+
+- Passing data between screens
+
+- Stateful vs Stateless widgets
+
+- Managing quiz state and results
+
+- Structuring Flutter apps cleanly
